@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.9]
+        python-version: [3.8, 3.9]
 
     steps:
     - uses: actions/checkout@v4
@@ -26,5 +26,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run Server
       run: |
-        source .\env\scripts\activate
+        source env/bin/activate
         python manage.py runserver
