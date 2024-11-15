@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F5EFFF;
+}
+.custom-navbar {
+    background-color: #A594F9 !important; /* Change navbar background color */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Text color */
+    margin: 0 15px; /* Spacing between items */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fffbfe; /* Lighter hover effect */
+    background-color: #7366f3; /* Optional background change on hover */
+}
+
+/* Center align navbar items */
+.navbar-collapse {
+    justify-content: center; /* Center align the navbar links */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Make the hamburger icon visible on dark backgrounds */
+}
+.banner {
+    background-color: #A594F9;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+h1 {
+    font-size: 45px;
+    margin: 0;
+    font-weight: bold;
+}
+form.p-3.shadow {
+    background: #CDC1FF;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px #CDC1FF(0, 0, 0, 0.1);
+}
+form h4 {
+    color: #E5D9F2;
+    font-weight: bold;
+}
+form .form-group {
+    margin-bottom: 15px;
+}
+form .btn-success {
+    width: 100%;
+    font-weight: bold;
+    background-color: #A594F9;
+    border: none;
+    transition: all 0.3s ease;
+}
+form .btn-success:hover {
+    background-color: #907cf7;
+}
+.card {
+    background-color: #CDC1FF;
+    border: 1px solid #CDC1FF;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+.card-title {
+    color: #04010f;
+    font-weight: bold;
+}
+.card-body p {
+    color: #04010f;
+}
+.card-body .btn {
+    margin-right: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.btn-danger {
+    background-color: #A594F9;
+    border: none;
+    color: white;
+}
+.btn-danger:hover {
+    background-color: #907cf7;
+}
+.btn-success {
+    background-color: #A594F9;
+    border: none;
+    color: white;
+}
+.btn-success:hover {
+    background-color: #907cf7;
+}
+.form-submit
+{
+    background-color: #A594F9;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.form-submit:hover
+{
+    background-color: #907cf7;
+}
+.update-form-align
+{
+    text-align: center;
+}
+.form-elements
+{
+    margin-left: 1px;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #A594F9;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 14px;
+    margin-top: auto;
+}
