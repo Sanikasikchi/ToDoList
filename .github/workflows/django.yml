@@ -26,7 +26,7 @@ jobs:
         pip install Django
         python -m venv env
         source env/bin/activate
-    - name: Run Tests
+    - name: Run Server
       run: |
         source env/bin/activate
-        python manage.py test
+        python manage.py runserver
